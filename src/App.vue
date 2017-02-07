@@ -1,18 +1,18 @@
 <template lang='jade'>
   .app#app
-    hello
     header-block
+    main-nav
 </template>
 
 <script>
-import Hello from './components/Hello/index.vue'
 import HeaderBlock from './components/Modules/Header/index.vue'
+import MainNav from './components/Modules/MainNav/index.vue'
 
 export default {
   name: 'app',
   components: {
-    Hello,
-    HeaderBlock
+    HeaderBlock,
+    MainNav
   }
 }
 </script>
@@ -22,7 +22,8 @@ export default {
 
   .app
     box-sizing border-box
-    & *
-      box-sizing border-box
- 
+    font-family 'Roboto', monospace
+    /*font-family 'Noto-Serif', monospace*/
+    a
+      color red
 </style>
