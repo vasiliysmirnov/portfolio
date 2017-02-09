@@ -1,23 +1,36 @@
 <template lang='jade'>
   .app#app
-    img(src='./assets/images/logo.png')
-    hello
+    header-block
+    main-nav
+    showreel
+    footer-nav
 </template>
 
 <script>
-import Hello from './components/Hello/index.vue'
+import HeaderBlock from './components/Modules/Header/index.vue'
+import MainNav from './components/Modules/MainNav/index.vue'
+import Showreel from './components/Modules/Showreel/index.vue'
+import FooterNav from './components/Modules/FooterNav/index.vue'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    HeaderBlock,
+    MainNav,
+    Showreel,
+    FooterNav
   }
 }
 </script>
 
-<style lang='stylus' scoped>
+<style lang='stylus'>
+  @require './assets/styles/reset.styl'
+
   .app
     box-sizing border-box
-    & *
-      box-sizing border-box
+    font-family 'Roboto', monospace
+    /*font-family 'Noto-Serif', monospace*/
+
+  a
+    color black
 </style>
