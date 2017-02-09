@@ -1,5 +1,5 @@
 export default {
-  name: 'main-nav',
+  name: 'footer-nav',
   props: {
     first: {
       type: Boolean,
@@ -14,11 +14,8 @@ export default {
   },
   data () {
     return {
-      links: [
-        'Blog',
-        'Portfolio',
-        'Hire me'
-      ]
+      variableOne: 42,
+      variableTwo: 228
     }
   },
   computed: {

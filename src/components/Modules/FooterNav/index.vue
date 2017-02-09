@@ -1,8 +1,6 @@
 <template lang='jade'>
-  .mainblock
-    .centerblock
-      .linksblock
-        a.mainLinks(v-for='link in links') {{ link }}
+  header.logo
+    a.narubalie(href='*', target='_blank')
 </template>
 <script type="text/babel" src='./index.js'></script>
 <style lang='stylus' scoped src='./index.styl'></style>
