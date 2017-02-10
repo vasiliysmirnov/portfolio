@@ -18,7 +18,8 @@ export default {
         'Blog',
         'Portfolio',
         'Hire me'
-      ]
+      ],
+      asset: require('./assets/img/herman.png')
     }
   },
   computed: {
