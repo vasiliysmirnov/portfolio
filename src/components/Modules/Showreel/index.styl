@@ -1,5 +1,24 @@
+.loader
+  position relative
+  display flex
+  justify-content center
+  align-items center
+  width 100%
+  height 35vh
+  overflow hidden
+  border-top 5px solid #F2B22A
+
+.video
+  position absolute
+  left 0
+  top @left
+  min-width 100%
+  width auto
+  min-height @min-width
+  height @width
 
 .reellink
+  position relative
   display flex
   font-family 'Noto Serif', serif
   font-weight 700
@@ -12,13 +31,3 @@
   padding-left: 4vh
   &:hover
     text-decoration: underline
-
-.loader
-  border-top 5px solid #F2B22A
-
-.video-block
-  display flex
-  justify-content center
-  align-items center
-  background-color red
-  height calc(35vh - 5px)

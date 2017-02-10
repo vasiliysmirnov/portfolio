@@ -14,8 +14,7 @@ export default {
   },
   data () {
     return {
-      variableOne: 42,
-      variableTwo: 228
+      src: 'https://s3-us-west-2.amazonaws.com/coverr/mp4/Forest-Lullaby.mp4'
     }
   },
   computed: {
