@@ -1,24 +1,16 @@
 <template lang='jade'>
   .app#app
     header-block
-    main-nav
-    showreel
+    router-view
     footer-nav
 </template>
 
 <script>
-import HeaderBlock from './components/Modules/Header/index.vue'
-import MainNav from './components/Modules/MainNav/index.vue'
-import Showreel from './components/Modules/Showreel/index.vue'
-import FooterNav from './components/Modules/FooterNav/index.vue'
-
 export default {
   name: 'app',
   components: {
-    HeaderBlock,
-    MainNav,
-    Showreel,
-    FooterNav
+    HeaderBlock: resolve => require(['./components/Modules/Header/index.vue'], resolve),
+    FooterNav: resolve => require(['./components/Modules/FooterNav/index.vue'], resolve)
   }
 }
 </script>
