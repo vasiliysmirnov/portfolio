@@ -1,5 +1,18 @@
-.hello
-  position absolute
-  left 50%
-  bottom 50%
-  transform translateX(-50%, -50%)
+.wrap
+  width calc(100% / 4 * 3)
+  overflow-x hidden
+
+.project-list
+  display flex
+  flex-flow row wrap
+  height 88vh
+  align-items flex-start
+  justify-content flex-start
+
+.project
+  width calc(100% / 3)
+  &:hover
+    opacity 0.7
+
+.cover
+  width 100%

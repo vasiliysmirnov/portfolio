@@ -4,20 +4,16 @@ export default {
     return {
       projects: [
         {
-          title: '#1',
-          cover: 'https://www.smashingmagazine.com/wp-content/uploads/2016/05/better-icon-design-preview-opt.png'
+          title: 'ЦАН',
+          cover: require('./assets/img/tsan-prew.png')
         },
         {
-          title: '#2',
-          cover: 'https://www.smashingmagazine.com/wp-content/uploads/2016/05/better-icon-design-preview-opt.png'
+          title: 'Фабрика вывесок',
+          cover: require('./assets/img/fabrica-prew.png')
         },
         {
-          title: '#3',
-          cover: 'https://www.smashingmagazine.com/wp-content/uploads/2016/05/better-icon-design-preview-opt.png'
-        },
-        {
-          title: '#4',
-          cover: 'https://www.smashingmagazine.com/wp-content/uploads/2016/05/better-icon-design-preview-opt.png'
+          title: 'Гранат транзит',
+          cover: require('./assets/img/tranzit-prew.png')
         }
       ]
     }

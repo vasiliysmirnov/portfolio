@@ -14,8 +14,12 @@ export default {
   },
   data () {
     return {
-      variableOne: 42,
-      variableTwo: 228
+      links: [
+        {
+          title: 'Narubalie',
+          routeName: '/'
+        }
+      ]
     }
   },
   computed: {

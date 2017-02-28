@@ -15,9 +15,18 @@ export default {
   data () {
     return {
       links: [
-        'Blog',
-        'Portfolio',
-        'Hire me'
+        // {
+        //   title: 'Blog',
+        //   routeName: 'Main'
+        // },
+        {
+          title: 'Portfolio',
+          routeName: 'Portfolio'
+        },
+        {
+          title: 'Hire me',
+          routeName: 'Hire'
+        }
       ],
       asset: require('./assets/img/herman.png')
     }

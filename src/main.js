@@ -10,15 +10,20 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
     {
-      name: 'main',
+      name: 'Main',
       path: '/',
       component: resolve => require(['./components/views/main.vue'], resolve)
     },
     {
-      name: 'portfolio',
+      name: 'Portfolio',
       path: '/portfolio',
       component: resolve => require(['./components/views/portfolio.vue'], resolve)
     }
+    // {
+    //   name: 'Hire',
+    //   path: '/hire',
+    //   component: resolve => require(['./components/views/hire.vue'], resolve)
+    // }
   ]
 })
 
