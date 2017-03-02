@@ -2,13 +2,13 @@
   header.wrap(
     :class='{"wrap--sm": $route.name === "Portfolio"}'
     )
-    router-link.topBlock--big(
+    router-link.link(
       :to='link.routeName'
       v-for='link in links'
     )
       svg.logo(
-        width='267px'
-        height='61px'
+        width='267'
+        height='61'
         viewbox='0 0 267 61'
         version='1.1'
         xmlns='http://www.w3.org/2000/svg'
