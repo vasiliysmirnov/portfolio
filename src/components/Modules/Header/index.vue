@@ -7,6 +7,7 @@
       v-for='link in links'
     )
       svg.logo(
+        preserveAspectRatio="xMinYMin meet"
         width='267'
         height='61'
         viewbox='0 0 267 61'
