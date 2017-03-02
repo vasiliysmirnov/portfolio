@@ -3,9 +3,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
+import Vuex from 'vuex'
+
+import storeConfig from './store'
 
 Vue.use(VueRouter)
+Vue.use(Vuex)
 
+const store = new Vuex.Store(storeConfig)
 const router = new VueRouter({
   mode: 'history',
   routes: [
@@ -30,6 +35,7 @@ const router = new VueRouter({
 /* eslint-disable no-new */
 new Vue({
   router,
+  store,
   el: '#app',
   template: '<App/>',
   components: { App }

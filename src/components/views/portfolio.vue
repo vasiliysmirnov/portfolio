@@ -1,13 +1,19 @@
 <template lang='jade'>
-  project-list
-    tags
+  project-list(:projects='projects')
 </template>
 <script type="text/babel">
 export default {
   name: 'portfolio',
   components: {
-    projectList: resolve => require(['../Modules/ProjectList/index.vue'], resolve),
-    tags: resolve => require(['../Modules/Tags/index.vue'], resolve)
+    projectList: resolve => require(['../Modules/ProjectList/index.vue'], resolve)
+  },
+  computed: {
+    projects () {
+      return this.$store.state.projects
+    },
+    tags () {
+      return this.$store.state.tags
+    }
   }
 }
 </script>

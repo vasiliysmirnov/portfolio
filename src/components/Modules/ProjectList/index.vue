@@ -3,14 +3,8 @@
     .project-list
       .project(v-for='project in projects')
         img.cover(:src='project.cover')
-        tags
+        .tagblock
+          .tag(v-for='tag in project.tags') {{tag}}
 </template>
-<script type="text/babel" src='./index.js'>
-  export default {
-    name: 'tags-years',
-    components: {
-      tags: resolve => require(['../Modules/Tags/index.vue'], resolve)
-    }
-  }
-</script>
+<script type="text/babel" src='./index.js'></script>
 <style lang='stylus' scoped src='./index.styl'></style>

@@ -11,9 +11,8 @@ export default {
     Showreel
   }
 }
-
 </script>
 <style lang='stylus'>
   .main
-    width 100% 
+    width 100%
 </style>
