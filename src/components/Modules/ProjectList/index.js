@@ -1,5 +1,8 @@
 export default {
   name: 'projectList',
+  components: {
+    tags: resolve => require(['../../Modules/Tags/index.vue'], resolve)
+  },
   data () {
     return {
       year: [
