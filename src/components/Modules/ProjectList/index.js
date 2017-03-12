@@ -7,7 +7,9 @@ export default {
     }
   },
   data () {
-    return {}
+    return {
+      active: false
+    }
   },
   computed: {}
 }

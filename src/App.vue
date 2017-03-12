@@ -1,18 +1,17 @@
 <template lang='jade'>
   .app#app
-    header-block
-    main-nav
+    //- main-nav
+    top-nav
     router-view
-    footer-nav
 </template>
 
 <script>
 export default {
   name: 'app',
   components: {
-    HeaderBlock: resolve => require(['./components/Modules/Header/index.vue'], resolve),
-    MainNav: resolve => require(['./components/Modules/MainNav/index.vue'], resolve),
-    FooterNav: resolve => require(['./components/Modules/FooterNav/index.vue'], resolve)
+    // HeaderBlock: resolve => require(['./components/Modules/Header/index.vue'], resolve),
+    // MainNav: resolve => require(['./components/Modules/MainNav/index.vue'], resolve),
+    TopNav: resolve => require(['./components/Modules/Nav/index.vue'], resolve)
   }
 }
 </script>
@@ -25,6 +24,8 @@ export default {
     font-family 'Roboto', monospace
     display flex
     flex-wrap wrap
+    background-color #181818
+    overflow-y hidden
     /*font-family 'Noto-Serif', monospace*/
 
   a

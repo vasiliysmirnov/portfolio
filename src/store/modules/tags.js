@@ -1,15 +1,10 @@
 export default {
   namespaced: true,
   state: [
-    'Web',
-    'Art-direction',
     'Branding',
-    'Re-design',
-    'App',
-    'UX',
-    'Animations',
-    'Infografics',
-    'Promo'
+    'Web design',
+    'App design',
+    'Art direction & etc.'
   ],
   getters: {},
   mutations: {},

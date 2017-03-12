@@ -15,9 +15,9 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
     {
-      name: 'Main',
+      name: 'Mainpage',
       path: '/',
-      component: resolve => require(['./components/views/main.vue'], resolve)
+      component: resolve => require(['./components/views/mainpage.vue'], resolve)
     },
     {
       name: 'Portfolio',

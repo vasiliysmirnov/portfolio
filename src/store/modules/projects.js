@@ -2,119 +2,151 @@ export default {
   namespaced: true,
   state: [
     {
-      title: 'ЦАН',
+      title: 'IVanGogh',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
-      cover: require('../assets/img/tsan-prew.png'),
-      tags: [
-        'Web',
-        'Art-direction',
-        'Re-design',
-        'UX'
-      ]
+      cover: require('../assets/img/IVanGogh-cover.png'),
+      tag: 'Branding'
+    },
+    {
+      title: 'Империя ткани',
+      desc: 'Редизайн сайта Центрального Агенства Недвижимости',
+      year: '2015',
+      cover: require('../assets/img/Imperia-cover.png'),
+      tag: 'Branding'
+    },
+    {
+      title: 'Союз Меховой Торговли',
+      desc: 'Редизайн сайта Центрального Агенства Недвижимости',
+      year: '2015',
+      cover: require('../assets/img/SOUZ-cover.png'),
+      tag: 'Branding'
+    },
+    {
+      title: 'Торговые Ряды',
+      desc: 'Редизайн сайта Центрального Агенства Недвижимости',
+      year: '2015',
+      cover: require('../assets/img/TR-cover.png'),
+      tag: 'Branding'
+    },
+    {
+      title: 'Boggs & Co',
+      desc: 'Редизайн сайта Центрального Агенства Недвижимости',
+      year: '2015',
+      cover: require('../assets/img/Boggs-cover.png'),
+      tag: 'Branding'
     },
     {
       title: 'Фабрика вывесок',
-      desc: 'Редизайн сайта фабрики наружной рекламы',
-      year: '2014',
-      cover: require('../assets/img/fabrica-prew.png'),
-      tags: [
-        'Web',
-        'Re-design',
-        'UX'
-      ]
+      desc: 'Редизайн сайта Центрального Агенства Недвижимости',
+      year: '2015',
+      cover: require('../assets/img/Fabrica-cover.png'),
+      tag: 'Web design'
     },
     {
-      title: 'Гранат транзит',
+      title: 'ЦАН',
+      desc: 'Редизайн сайта Центрального Агенства Недвижимости',
+      year: '2015',
+      cover: require('../assets/img/Tsan-cover.png'),
+      tag: 'Web design'
+    },
+    {
+      title: 'Гранат-транзит',
+      desc: 'Редизайн сайта фабрики наружной рекламы',
+      year: '2014',
+      cover: require('../assets/img/Tranzit-cover.png'),
+      tag: 'Web design'
+    },
+    {
+      title: 'Сердца России',
       desc: 'Сайт оклейки городского транспорта',
       year: '2014',
-      cover: require('../assets/img/tranzit-prew.png'),
-      tags: [
-        'Web',
-        'Re-design',
-        'Infografics'
-      ]
+      cover: require('../assets/img/Serdca-cover.png'),
+      tag: 'Web design'
+    },
+    {
+      title: 'Таксовичкоф',
+      desc: 'Сайт оклейки городского транспорта',
+      year: '2014',
+      cover: require('../assets/img/Taxo-cover.png'),
+      tag: 'Web design'
+    },
+    {
+      title: 'MANIZHA',
+      desc: 'Сайт оклейки городского транспорта',
+      year: '2014',
+      cover: require('../assets/img/MANIZHA-cover.png'),
+      tag: 'Web design'
+    },
+    {
+      title: 'LiveBetSystem',
+      desc: 'Сайт оклейки городского транспорта',
+      year: '2014',
+      cover: require('../assets/img/LBS-cover.png'),
+      tag: 'Web design'
+    },
+    {
+      title: 'Instamart',
+      desc: 'Сайт оклейки городского транспорта',
+      year: '2014',
+      cover: require('../assets/img/Instamart-cover.png'),
+      tag: 'Web design'
+    },
+    {
+      title: 'Vlad Leto',
+      desc: 'Сайт оклейки городского транспорта',
+      year: '2014',
+      cover: require('../assets/img/VladLeto-cover.png'),
+      tag: 'Web design'
     },
     {
       title: 'Cheque',
       desc: 'Приложение для учета расходов',
       year: '2016',
-      cover: require('../assets/img/cheque-prew.png'),
-      tags: [
-        'App',
-        'UX',
-        'Animations'
-      ]
+      cover: require('../assets/img/cheque-cover.png'),
+      tag: 'App design'
     },
     {
       title: 'Golden Ring Hotel',
       desc: 'Приложение для администрирования отеля',
       year: '2013',
-      cover: require('../assets/img/hotel-prew.png'),
-      tags: [
-        'App'
-      ]
-    },
-    {
-      title: 'Коробейников',
-      desc: 'Сайт-каталог продажи подержанных товаров',
-      year: '2015',
-      cover: require('../assets/img/korob-prew.png'),
-      tags: [
-        'Art-direction'
-      ]
-    },
-    {
-      title: 'Пироги домой',
-      desc: 'Приложение для заказа пирогов онлайн',
-      year: '2015',
-      cover: require('../assets/img/pirogi-prew.png'),
-      tags: [
-        'Art-direction',
-        'Animations'
-      ]
+      cover: require('../assets/img/Hotel-cover.png'),
+      tag: 'App design'
     },
     {
       title: 'Гранат PR',
       desc: 'Промо-сайт для PR-услуг',
       year: '2015',
-      cover: require('../assets/img/pr-prew.png'),
-      tags: [
-        'Art-direction',
-        'UX',
-        'Promo'
-      ]
+      cover: require('../assets/img/PR-cover.png'),
+      tag: 'Art direction & etc.'
     },
     {
-      title: 'Торговые ряды',
-      desc: 'Брендинг и сайт-каталог для продажи товаров',
-      year: '2013',
-      cover: require('../assets/img/ruady-prew.png'),
-      tags: [
-        'Web',
-        'Branding',
-        'UX'
-      ]
+      title: 'Пироги домой',
+      desc: 'Приложение для заказа пирогов онлайн',
+      year: '2015',
+      cover: require('../assets/img/Pirogi-cover.png'),
+      tag: 'Art direction & etc.'
     },
     {
-      title: 'Сердца России',
-      desc: 'Сайт для благотворительного фонда',
-      year: '2013',
-      cover: require('../assets/img/serdtca-prew.png'),
-      tags: [
-        'Web',
-        'UX'
-      ]
+      title: 'DOLPHIN',
+      desc: 'Приложение для заказа пирогов онлайн',
+      year: '2015',
+      cover: require('../assets/img/DOLPHIN-cover.png'),
+      tag: 'Art direction & etc.'
     },
     {
-      title: 'Таксовичкоф',
+      title: 'RusRealty',
+      desc: 'Приложение для заказа пирогов онлайн',
+      year: '2015',
+      cover: require('../assets/img/Rusrealty-cover.png'),
+      tag: 'Art direction & etc.'
+    },
+    {
+      title: 'XX intensiv',
       desc: 'Редизайн сайта городских перевозок',
       year: '2014',
-      cover: require('../assets/img/taxo-prew.png'),
-      tags: [
-        'Web',
-        'Re-design'
-      ]
+      cover: require('../assets/img/XX-cover.png'),
+      tag: 'Art direction & etc.'
     }
   ],
   getters: {},

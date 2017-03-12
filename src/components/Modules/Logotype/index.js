@@ -1,5 +1,5 @@
 export default {
-  name: 'header-block',
+  name: 'logotype',
   props: {
     first: {
       type: Boolean,
