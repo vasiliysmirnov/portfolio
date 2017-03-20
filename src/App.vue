@@ -26,7 +26,6 @@ export default {
     flex-wrap wrap
     background-color #181818
     overflow-y hidden
-    /*font-family 'Noto-Serif', monospace*/
 
   a
     color black
