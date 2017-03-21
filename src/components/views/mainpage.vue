@@ -35,9 +35,10 @@ export default {
     flex-direction row
     flex-wrap nowrap
     position: relative;
-    margin-right 5vh
+    margin-right 5vw
     height 50vh
-    width 230px
+    min-width 230px
+    width 13vw
     color white
     font-size 28px
 </style>
