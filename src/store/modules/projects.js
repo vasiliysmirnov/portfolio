@@ -3,6 +3,7 @@ export default {
   state: [
     {
       title: 'IVanGogh',
+      path: '/ivangogh',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
       cover: require('../assets/img/IVanGogh-cover.png'),
@@ -10,6 +11,7 @@ export default {
     },
     {
       title: 'Империя ткани',
+      path: '/imperia',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
       cover: require('../assets/img/Imperia-cover.png'),
@@ -17,6 +19,7 @@ export default {
     },
     {
       title: 'Союз Меховой Торговли',
+      path: '/souz',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
       cover: require('../assets/img/SOUZ-cover.png'),
@@ -24,6 +27,7 @@ export default {
     },
     {
       title: 'Торговые Ряды',
+      path: '/ryuadi',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
       cover: require('../assets/img/TR-cover.png'),
@@ -31,6 +35,7 @@ export default {
     },
     {
       title: 'Boggs & Co',
+      path: '/boggs',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
       cover: require('../assets/img/Boggs-cover.png'),
@@ -38,6 +43,7 @@ export default {
     },
     {
       title: 'Фабрика вывесок',
+      path: '/fabrica',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
       cover: require('../assets/img/Fabrica-cover.png'),
@@ -45,6 +51,7 @@ export default {
     },
     {
       title: 'ЦАН',
+      path: '/tsan',
       desc: 'Редизайн сайта Центрального Агенства Недвижимости',
       year: '2015',
       cover: require('../assets/img/Tsan-cover.png'),
@@ -52,6 +59,7 @@ export default {
     },
     {
       title: 'Гранат-транзит',
+      path: '/transit',
       desc: 'Редизайн сайта фабрики наружной рекламы',
       year: '2014',
       cover: require('../assets/img/Tranzit-cover.png'),
@@ -59,6 +67,7 @@ export default {
     },
     {
       title: 'Сердца России',
+      path: '/serdca',
       desc: 'Сайт оклейки городского транспорта',
       year: '2014',
       cover: require('../assets/img/Serdca-cover.png'),
@@ -66,6 +75,7 @@ export default {
     },
     {
       title: 'Таксовичкоф',
+      path: '/taxovichkov',
       desc: 'Сайт оклейки городского транспорта',
       year: '2014',
       cover: require('../assets/img/Taxo-cover.png'),
@@ -73,6 +83,7 @@ export default {
     },
     {
       title: 'MANIZHA',
+      path: '/manizha',
       desc: 'Сайт оклейки городского транспорта',
       year: '2014',
       cover: require('../assets/img/MANIZHA-cover.png'),
@@ -80,6 +91,7 @@ export default {
     },
     {
       title: 'LiveBetSystem',
+      path: '/livebetsystem',
       desc: 'Сайт оклейки городского транспорта',
       year: '2014',
       cover: require('../assets/img/LBS-cover.png'),
@@ -87,6 +99,7 @@ export default {
     },
     {
       title: 'Instamart',
+      path: '/instamart',
       desc: 'Сайт оклейки городского транспорта',
       year: '2014',
       cover: require('../assets/img/Instamart-cover.png'),
@@ -94,6 +107,7 @@ export default {
     },
     {
       title: 'Vlad Leto',
+      path: '/vladleto',
       desc: 'Сайт оклейки городского транспорта',
       year: '2014',
       cover: require('../assets/img/VladLeto-cover.png'),
@@ -101,6 +115,7 @@ export default {
     },
     {
       title: 'Cheque',
+      path: '/cheque',
       desc: 'Приложение для учета расходов',
       year: '2016',
       cover: require('../assets/img/cheque-cover.png'),
@@ -108,6 +123,7 @@ export default {
     },
     {
       title: 'Golden Ring Hotel',
+      path: '/grhotel',
       desc: 'Приложение для администрирования отеля',
       year: '2013',
       cover: require('../assets/img/Hotel-cover.png'),
@@ -115,6 +131,7 @@ export default {
     },
     {
       title: 'Гранат PR',
+      path: '/granatpr',
       desc: 'Промо-сайт для PR-услуг',
       year: '2015',
       cover: require('../assets/img/PR-cover.png'),
@@ -122,6 +139,7 @@ export default {
     },
     {
       title: 'Пироги домой',
+      path: '/pirogi',
       desc: 'Приложение для заказа пирогов онлайн',
       year: '2015',
       cover: require('../assets/img/Pirogi-cover.png'),
@@ -129,6 +147,7 @@ export default {
     },
     {
       title: 'DOLPHIN',
+      path: '/dolphin',
       desc: 'Приложение для заказа пирогов онлайн',
       year: '2015',
       cover: require('../assets/img/DOLPHIN-cover.png'),
@@ -136,6 +155,7 @@ export default {
     },
     {
       title: 'RusRealty',
+      path: '/rusrealty',
       desc: 'Приложение для заказа пирогов онлайн',
       year: '2015',
       cover: require('../assets/img/Rusrealty-cover.png'),
@@ -143,6 +163,7 @@ export default {
     },
     {
       title: 'XX intensiv',
+      path: '/xxintensiv',
       desc: 'Редизайн сайта городских перевозок',
       year: '2014',
       cover: require('../assets/img/XX-cover.png'),

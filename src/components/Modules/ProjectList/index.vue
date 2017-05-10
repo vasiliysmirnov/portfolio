@@ -5,7 +5,7 @@
         v-for='project in projects'
         v-if='project.tag === "Branding"'
       )
-        .title {{project.title}}  
+        .title {{project.title}}
         img.cover(
           :src='project.cover'
         )
