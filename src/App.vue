@@ -1,6 +1,5 @@
 <template lang='jade'>
   .app#app
-    //- main-nav
     top-nav
     router-view
 </template>
@@ -8,11 +7,7 @@
 <script>
 export default {
   name: 'app',
-  components: {
-    // HeaderBlock: resolve => require(['./components/Modules/Header/index.vue'], resolve),
-    // MainNav: resolve => require(['./components/Modules/MainNav/index.vue'], resolve),
-    TopNav: resolve => require(['./components/Modules/Nav/index.vue'], resolve)
-  }
+  components: {TopNav: resolve => require(['./components/Modules/Nav/index.vue'], resolve)}
 }
 </script>
 
@@ -22,11 +17,24 @@ export default {
   .app
     box-sizing border-box
     font-family 'Roboto', monospace
+    font-size 2vh
+    font-weight 100
+    line-height 200%
     display flex
+    flex-direction column
     flex-wrap wrap
-    background-color #181818
+    background-color #fff
     overflow-y hidden
 
   a
     color black
+
+  .h1
+    font-size 200%
+    font-weight 500
+    padding-top 60px
+
+  .text
+    padding-top 50px
+    
 </style>

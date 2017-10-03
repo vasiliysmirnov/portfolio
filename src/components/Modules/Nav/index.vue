@@ -1,6 +1,8 @@
 <template lang='jade'>
   .secondarynav
-    a.links(v-for='link in links') {{ link }}
+    img.ic-nav(src='./assets/img/burger.png')
+    img.logo(src='./assets/img/logo.png')
+    img.ic-search(src='./assets/img/burger.png')
 </template>
 <script type="text/babel" src='./index.js'></script>
 <style lang='stylus' scoped src='./index.styl'></style>

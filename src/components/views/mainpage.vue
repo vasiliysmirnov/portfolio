@@ -1,44 +1,34 @@
 <template lang='jade'>
   main.main
-    logotype
-    project-list.list(
-      :projects='projects'
-      v-for='tag in tags'
-      ) {{tag}}
+    hello
+    branding
+    site
+    app
+    other
+    contacts
 </template>
 <script type="text/babel">
 export default {
   name: 'Mainpage',
   components: {
-    logotype: resolve => require(['../Modules/Logotype/index.vue'], resolve),
-    projectList: resolve => require(['../Modules/ProjectList/index.vue'], resolve)
+    hello: resolve => require(['../Modules/hello/index.vue'], resolve),
+    branding: resolve => require(['../Modules/project-branding/index.vue'], resolve),
+    site: resolve => require(['../Modules/project-site/index.vue'], resolve),
+    app: resolve => require(['../Modules/project-app/index.vue'], resolve),
+    other: resolve => require(['../Modules/project-other/index.vue'], resolve),
+    contacts: resolve => require(['../Modules/contacts/index.vue'], resolve)
   },
-  computed: {
-    projects () {
-      return this.$store.state.projects
-    },
-    tags () {
-      return this.$store.state.tags
-    }
-  }
+  computed: {}
 }
 </script>
 <style lang='stylus'>
   .main
-    padding-left calc(50vw - 284px)
-    width 200vw
     display flex
-    flex-direction row
-    flex-wrap wrap
-  .list
-    display flex
-    flex-direction row
-    flex-wrap nowrap
-    position: relative;
-    margin-right 5vw
-    height 50vh
-    min-width 230px
-    width 13vw
-    color white
-    font-size 28px
+    flex-direction column
+    align-items center
+
+  .wrap
+    width 90vw
+    margin-top 3vh
+    padding 0 4% 8% 4%
 </style>
