@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import App from './App'
 import Vuex from 'vuex'
 
@@ -9,6 +10,7 @@ import storeConfig from './store'
 
 Vue.use(VueRouter)
 Vue.use(Vuex)
+Vue.use(VueAwesomeSwiper)
 
 const store = new Vuex.Store(storeConfig)
 const router = new VueRouter({

@@ -18,7 +18,8 @@ export default {
     other: resolve => require(['../Modules/project-other/index.vue'], resolve),
     contacts: resolve => require(['../Modules/contacts/index.vue'], resolve)
   },
-  computed: {}
+  computed: {
+  }
 }
 </script>
 <style lang='stylus'>
